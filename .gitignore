@@ -1,0 +1,31 @@
+# Gradle & JVM build artifacts
+.gradle/
+build/
+out/
+*.class
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+
+# JavaScript / Node
+node_modules/
+dist/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDEs & editors
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Logs & OS files
+*.log
+logs/
+.DS_Store
+Thumbs.db
