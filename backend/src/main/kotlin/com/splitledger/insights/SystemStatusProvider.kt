@@ -1,7 +1,6 @@
 package com.splitledger.insights
 
-import org.springframework.stereotype.Component
-import org.springframework.stereotype.Service
+import org.springframework.stereotype.Components
 import java.time.Instant
 
 data class HealthStatus(

@@ -9,6 +9,6 @@ services:
       POSTGRES_USER: splitledger
       POSTGRES_PASSWORD: splitledger
     volumes:
-      - postgres_data:/var/lib/postgressql/data
+      - postgres_data:/var/lib/postgresql/data
 volumes:
   postgres_data:
