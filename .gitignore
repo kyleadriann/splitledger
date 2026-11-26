@@ -6,6 +6,7 @@ out/
 *.jar
 *.war
 !gradle/wrapper/gradle-wrapper.jar
+.kotlin/
 
 # JavaScript / Node
 node_modules/

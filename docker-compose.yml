@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: splitledger-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: splitledger
+      POSTGRES_USER: splitledger
+      POSTGRES_PASSWORD: splitledger
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
